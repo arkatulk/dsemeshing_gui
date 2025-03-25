@@ -43,7 +43,7 @@ if __name__ == '__main__':
         bbox_diag.append(write_candidates(file))
         arg1 = os.path.join(res_path, "pred_{}.txt".format(file))
         arg2 = os.path.join(res_path, "final_mesh_{}.ply".format(file))
-        os.system(os.path.join(BASE_DIR, "postprocess/build/debug/postprocess {} {}".format(arg1, arg2)))
+        os.system(os.path.join(BASE_DIR, "postprocess/build/postprocess {} {}".format(arg1, arg2)))
     for i, file in enumerate(files):
         print("triangle resize:",file)
         arg2 = os.path.join(res_path, "final_mesh_{}.ply".format(file))
