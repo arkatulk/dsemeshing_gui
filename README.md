@@ -24,8 +24,8 @@ pip install trimesh
 
 Clone this repository:
 ``` bash
-git clone https://github.com/mrakotosaon/dse-meshing.git
-cd dse-meshing
+git clone https://github.com/arkatulk/dsemeshing_gui.git
+cd dsemeshing_gui
 ```
 
 Setup the triangle selection step:
