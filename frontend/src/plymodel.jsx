@@ -24,7 +24,7 @@ const PLYModel = ({ url }) => {
   // Automatically rotate the model
   useFrame(() => {
     if (meshRef.current) {
-      meshRef.current.rotation.z += 0.01; // Smooth rotation
+      //meshRef.current.rotation.z += 0.01; // Smooth rotation
       meshRef.current.position.y = -40
     }
   });

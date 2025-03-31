@@ -78,7 +78,7 @@ function Trial() {
   
     return (
       <>
-        <ambientLight intensity={4} />
+        <ambientLight intensity={1} />
         <pointLight position={[10, 10, 10]} />
         <OrbitControls enableRotate={true} enablePan={true} />
         {fileUrl && <PLYModel url={fileUrl} position={[0, 0, -10]} />}
