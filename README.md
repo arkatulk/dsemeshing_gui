@@ -11,7 +11,6 @@ The triangle selection code is based on  on [Meshing-Point-Clouds-with-IER](http
 * CUDA and CuDNN (changing the code to run on CPU should require few changes)
 * Python 3.12
 * Pytorch 2.6
-* Tensorflow 1.15
 
 ## Setup
 Install required python packages, if they are not already installed:
@@ -47,31 +46,6 @@ make
 - **Pre-trained models** on the famousthingi dataset.
 - **Testset** from famousthingi dataset.
 
-
-Our data can be downloaded directly here:
-- training data: https://nuage.lix.polytechnique.fr/index.php/s/gmnGHjNq7WKipRA
-- pretrained models: https://nuage.lix.polytechnique.fr/index.php/s/FTCyp5WHg7Z68EM
-- testing data: https://nuage.lix.polytechnique.fr/index.php/s/3ZcFtqKm6Z27ZJ6
-
-To download our data from the code:
-- Download pretrained models:
-  ``` bash
-  cd data
-  python download_data.py --task models
-  ```
-
-- Download training set:
-  ``` bash
-  cd data
-  python download_data.py --task training
-  python conversion.py
-  ```
-
-- Download testing set:
-  ``` bash
-  cd data
-  python download_data.py --task testing
-  ```
 
 ## Training
 To train the classifier network on the provided dataset:
