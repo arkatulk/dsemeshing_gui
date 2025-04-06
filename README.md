@@ -147,8 +147,11 @@ Now use the Bowse button to browse your system and upload .xyz point cloud files
 
 Download links (Google Drive or Hugging Face):
 
-- 📁 **Training Dataset**: [Download](#)
-- 🤖 **Pre-trained Models**: [Download](#)
+- 📁 **Training Dataset**: [Download](https://drive.google.com/uc?export=download&id=131w1Izkd4S3ImCJWTJeOBaPPwh1jBoWy)
+
+
+- 🤖 **Pre-trained Models**: [Download](https://drive.google.com/uc?export=download&id=1JF2454mRDCYbIve5kouAWX8F53ZO4Ahc)
+
 
 ---
 
