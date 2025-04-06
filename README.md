@@ -139,7 +139,7 @@ npm run dev
 
 Then open [http://localhost:5173](http://localhost:5173)
 
-Now use the Bowse button to browse your system and upload .xyz point cloud files and cilck Upload and Convert
+Now use the Browse button to select and upload .xyz point cloud files, click "Upload and Convert" to visualize the mesh.
 
 ---
 
