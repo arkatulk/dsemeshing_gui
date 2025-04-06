@@ -147,5 +147,5 @@ Download links (Google Drive or Hugging Face):
 🤖 Pre-trained Models: Download
 
 📸 Demo
-![DSE_meshing](img/demoImage1.png "Demo Image 1")
-![DSE_meshing](img/demoImage2.png "Demmo Image 2")
+![DSE_meshing](img/demo_image1.png "Demo Image 1")
+![DSE_meshing](img/demo_image2.png "Demmo Image 2")
