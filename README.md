@@ -157,7 +157,8 @@ Download links (Google Drive or Hugging Face):
 This is the generated mesh for a pointCloud Man.xyz containing 100k points
 
 
-![DSE_meshing](img/demo_image2.jpg "Demo Image")  
+![DSE_meshing](img/demo_image1.jpg "Demo Image 1")  
+![DSE_meshing](img/demo_image2.jpg "Demo Image 2")  
 *Visualizing the predicted mesh from a sample input point cloud.*
 
 
