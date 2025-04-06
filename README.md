@@ -98,3 +98,54 @@ python select.py
 ```
 The produced meshes can be found in `data/test_data/select` in the format: `final_mesh_(SHAPE_NAME).ply`. For numerical precision reasons we suggest to use point clouds with a bounding box diagonal larger than 1. By default our code evaluates the .xyz point clouds in `data/test_data` please adapt the paths in the code if you wish to evaluate  point clouds at different locations.
 
+
+
+---
+
+🚀 Running the Project
+🔧 Backend (Uvicorn + FastAPI)
+
+
+1. Install dependencies
+bash
+Copy
+Edit
+cd backend
+pip install -r requirements.txt
+2. Run the backend
+bash
+Copy
+Edit
+uvicorn main:app --reload
+The API will be available at http://localhost:8000
+
+
+💻 Frontend (React + Vite)
+The frontend visualizes generated .ply files.
+
+1. Setup
+bash
+Copy
+Edit
+cd frontend
+npm install
+2. Run dev server
+bash
+Copy
+Edit
+npm run dev
+Then open http://localhost:5173
+
+Now upload the .xyz files using the upload button
+
+
+📦 Dataset & Pretrained Models
+Download links (Google Drive or Hugging Face):
+
+📁 Training Dataset: Download
+
+🤖 Pre-trained Models: Download
+
+📸 Demo
+![DSE_meshing](img/demoImage1.png "Demo Image 1")
+![DSE_meshing](img/demoImage2.png "Demmo Image 2")
