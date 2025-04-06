@@ -103,21 +103,16 @@ The produced meshes can be found in `data/test_data/select` in the format: `fina
 ---
 
 
-```markdown
+
 ## 🚀 Running the Project
 
 ### 🔧 Backend (Uvicorn + FastAPI)
 
-#### 1. Install dependencies
+
+#### 1. Run the backend
 
 ```bash
 cd backend
-pip install -r requirements.txt
-```
-
-#### 2. Run the backend
-
-```bash
 uvicorn main:app --reload
 ```
 
@@ -144,7 +139,7 @@ npm run dev
 
 Then open [http://localhost:5173](http://localhost:5173)
 
-Now upload the `.xyz` files using the **Upload** button.
+Now use the Bowse button to browse your system and upload .xyz point cloud files and cilck Upload and Convert
 
 ---
 
@@ -159,8 +154,13 @@ Download links (Google Drive or Hugging Face):
 
 ### 📸 Demo
 
-![DSE_meshing](img/demo_image1.jpg "Demo Image 1")  
-![DSE_meshing](img/demo_image2.jpg "Demo Image 2")
-```
+This is the generated mesh for a pointCloud Man.xyz containing 100k points
+
+
+![DSE_meshing](img/demo_image2.jpg "Demo Image")  
+*Visualizing the predicted mesh from a sample input point cloud.*
+
 
 ---
+
+
