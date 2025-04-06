@@ -102,50 +102,65 @@ The produced meshes can be found in `data/test_data/select` in the format: `fina
 
 ---
 
-🚀 Running the Project
-🔧 Backend (Uvicorn + FastAPI)
 
+```markdown
+## 🚀 Running the Project
 
-1. Install dependencies
-bash
-Copy
-Edit
+### 🔧 Backend (Uvicorn + FastAPI)
+
+#### 1. Install dependencies
+
+```bash
 cd backend
 pip install -r requirements.txt
-2. Run the backend
-bash
-Copy
-Edit
+```
+
+#### 2. Run the backend
+
+```bash
 uvicorn main:app --reload
-The API will be available at http://localhost:8000
+```
 
+The API will be available at [http://localhost:8000](http://localhost:8000)
 
-💻 Frontend (React + Vite)
-The frontend visualizes generated .ply files.
+---
 
-1. Setup
-bash
-Copy
-Edit
+### 💻 Frontend (React + Vite)
+
+The frontend visualizes generated `.ply` files.
+
+#### 1. Setup
+
+```bash
 cd frontend
 npm install
-2. Run dev server
-bash
-Copy
-Edit
+```
+
+#### 2. Run dev server
+
+```bash
 npm run dev
-Then open http://localhost:5173
+```
 
-Now upload the .xyz files using the upload button
+Then open [http://localhost:5173](http://localhost:5173)
 
+Now upload the `.xyz` files using the **Upload** button.
 
-📦 Dataset & Pretrained Models
+---
+
+### 📦 Dataset & Pretrained Models
+
 Download links (Google Drive or Hugging Face):
 
-📁 Training Dataset: Download
+- 📁 **Training Dataset**: [Download](#)
+- 🤖 **Pre-trained Models**: [Download](#)
 
-🤖 Pre-trained Models: Download
+---
 
-📸 Demo
-![DSE_meshing](img/demo_image1.png "Demo Image 1")
-![DSE_meshing](img/demo_image2.png "Demmo Image 2")
+### 📸 Demo
+
+![DSE_meshing](img/demo_image1.jpg "Demo Image 1")  
+![DSE_meshing](img/demo_image2.jpg "Demo Image 2")
+```
+
+---
